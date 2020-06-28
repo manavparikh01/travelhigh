@@ -1,0 +1,226 @@
+body {
+    background: rgb(240,240,240);
+}
+
+html {
+    margin: 0;
+}
+
+
+#mainNavbar {
+    
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#mainNavbar .navbar-brand {
+    margin-right: 110px;
+}
+
+.dropdown-item:hover {
+    background: rgb(200,200,200)
+}
+
+
+
+#last:hover {
+    background: rgb(60,60,60);
+    color: white;
+}
+
+form #searchplace {
+    background: none;
+    
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+
+form input[type="email"]:focus {
+    outline: none;
+}
+
+.first {
+    padding-top: 80px;
+}
+
+
+.firstpage {
+    background-image: url(images/frank-vessia-EoThx95bYPg-unsplash.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100%;
+}
+
+#fp {
+    padding-top: 22%;
+    text-align: center;
+    padding-bottom: 28%;
+}
+
+#fp h1 {
+    font-weight: 700;
+    font-size: 5em;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.ttd {
+    text-align: center;
+    margin: 50px auto;
+    font-weight: bold;
+}
+
+
+.card:hover {
+    opacity: 0.8;
+    border: 2px solid rgb(240,240,240);
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.card .card-title {
+    font-weight: 150;
+}
+
+.card .card-text {
+    font-weight: 100;
+}
+
+.topdeshead:hover h3 {
+    color: black;
+    font-weight: 600;
+}
+
+.topdeshead:hover {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+
+.topdeshead h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 500;
+    margin-top: 4px;
+    color: rgb(40,40,40);
+}
+
+.footer {
+    margin-top: 10%;
+    background-color: rgb(23,23,23);
+    margin-bottom: 0;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.footer hr {
+    color: white;
+    background-color: white;
+}
+
+.footerheading #footerheadingtitle {
+    color: rgb(235,235,235);
+    font-weight: 300;
+    font-size: 33px;
+    
+}
+
+.footerheading #footerheadingtitle:hover {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footerheading span {
+    float: right;
+    padding-bottom: 0;
+    margin-bottom: o;
+}
+
+
+.footerheading span a:hover {
+    text-decoration: none;
+    
+    
+
+}
+
+.footerheading span ul li {
+    text-decoration: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    float: left;
+    display: block;
+    list-style: none;
+
+}
+
+.footerheading span ul {
+    float: right;
+    text-decoration: none;
+}
+
+.footer .row {
+    color: white;
+    font-weight: 100;
+    margin-top: 25px;
+}
+
+#headfoot {
+    
+    
+    padding-left: 0;
+    padding-bottom: 0;
+    border-bottom: 2px solid rgb(60,60,60);
+}
+
+.footer .row ul {
+    padding-left: 0;
+    
+}
+.footer .row ul li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 13px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.footer .row ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.footer .row #firsttwo ul li:hover {
+    opacity: 0.3;
+}
+
+.footer .footerdown {
+    padding-top: 7%;
+    text-align: center;
+}
+
+.footer #same button {
+    margin-top: 15px;
+}
+
+.navbar.scrolled {
+    background: black;
+    transition: background 500ms;
+}
+
+
+
